@@ -1,13 +1,59 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+		'Droid Sans', 'Helvetica Neue', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
+
+input::placeholder {
+	text-align: center;
+	color: grey;
+}
+
+input:focus {
+	background: #212a5e;
+}
+
+.username, .changeuser {
+	background: #3f51b5;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	border-radius: 5px;
+	padding: 1vh 1.5vw;
+	border: 0px solid transparent;
+}
+
+.changeuser,  .changeuser::placeholder{
+	text-align: left;
+
+}
+
+.MuiButton-contained.Mui-disabled {
+	background: #8e99d7 !important;
+}
+
+
+
+.ag-theme-alpine .ag-row {
+	width: 90vw !important;
+  color: white !important;
+  background: transparent;
+}
+
+.ag-theme-alpine [class^='ag-'] {
+	background: rgba(0, 0, 0, 0.1) !important;
+	color: white !important;
+}
+
+a {
+  color: white !important;
+}
+
